@@ -208,6 +208,7 @@ url('data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICR
   height: 100px;
   padding: 50px 50px;
   color: rgba(0,0,0,0.3);
+  bottom: 0;
 }
 .footer-links {
   display: flex;
@@ -215,7 +216,7 @@ url('data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICR
   align-items: center;
   left: auto;
   right: auto;
-  margin: 0 50%;
+  margin: 1% 55% 0 45%;
 }
 .footer-links a {
   color: orange;
