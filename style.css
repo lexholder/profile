@@ -57,11 +57,11 @@ a {
 }
 
 .btn-blue {
-  background-color: #orange;
-  color: white;
+  background-color: lightblue;
+  color: #12266E;
   padding: 12px 16px;
-  margin: 15%;
-  border-radius: 4px;
+  margin: 14%;
+  border-radius: 8px;
   letter-spacing: .15rem;
   font-family: 'Righteous', serif;
   /*transition: 0.3s;*/
@@ -69,17 +69,9 @@ a {
 
 .btn-blue:hover {
   /*background:rgb(20,20,20);*/
-  border: 1px solid #4A4A4A;
+  border: 1px solid darkorange;
   text-decoration: none!important;
-  -webkit-animation: drawBorderFromCenter 2.75s;
-  color: white;
-  background-color: ; /* gold */
-  /* Single pixel data uri image http://jsfiddle.net/LPxrT/
-  /* background-image: gold, gold, white */
-  background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAOqrAP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=='),  url('data:image/gif;base64,R0lGODlhAQABAPAAAOqrAP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==');
-  background-repeat: no-repeat;
-  background-size: 0 2px, 0 100%, 0% 2px;
-  background-position: top center, top center, bottom center;
+  color: darkorange!important;
 }
 
 .list-inline {
@@ -168,12 +160,6 @@ a {
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  color: black;
-  border-radius: 5px;
-}
-
 /* Style the back side */
 .flip-card-back {
   border-radius: 5px;
@@ -202,7 +188,7 @@ a {
   align-items: center;
   left: auto;
   right: auto;
-  margin: 0 44.5% -5.5%;
+  margin: 0 42.5% -5.5%;
 }
 .footer-links a {
   color: darkorange;
@@ -215,7 +201,17 @@ a {
 }
 
 
-
+.page-divide {
+  background-image: url(https://images.pexels.com/photos/34592/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  height: 145px;
+  background-position: 0 27%;
+  background-color: #FFDBB8;
+  background-blend-mode: screen;
+  border: 6px double lightblue;
+  border-radius: 12px;
+  margin: auto;
+}
 
 
 @-webkit-keyframes drawBorderFromCenter {
