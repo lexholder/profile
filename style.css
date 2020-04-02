@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: black!important;
+  background-color: #ffdbb7fa!important;
 }
 
 h1  {
@@ -25,12 +25,11 @@ a {
 }
 
 .photo-grey {
-  background: #purple;
   padding: 24px;
   width: 90%;
   margin: 4%;
   border-radius: 10px;
-  box-shadow: 0 px 12px rgba(1,2,3,5);
+  box-shadow: 2px 2px 10px lightblue;
   text-align: center;
 }
 
@@ -136,9 +135,6 @@ a {
   opacity: 1;
 }
 
-
-
-
 .flip-card {
   background-color: transparent;
   border-radius: 5px;
@@ -186,9 +182,11 @@ a {
 }
 
 .footer {
-  background-image: linear-gradient(rgba(0,0,0,1.3), rgba(0,0,0,0.3)), url("https://images.pexels.com/photos/258112/pexels-photo-258112.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://images.pexels.com/photos/1005324/literature-book-open-pages-1005324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-size: cover;
   background-position: center;
+  background-blend-mode: screen;
+  background-color: #FFDBB8;
   /*display: flex;
   text-align: center;
   align-items: center;
@@ -204,16 +202,16 @@ a {
   align-items: center;
   left: auto;
   right: auto;
-  margin: 0 41%;
+  margin: 0 44.5% -5.5%;
 }
 .footer-links a {
-  color: orange;
+  color: darkorange;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
 }
 .footer-links a:hover {
-  color: pink;
+  color: #12266F;
 }
 
 
@@ -277,14 +275,20 @@ a {
 
 
 .item2 { grid-area: intro;
- background-image: url("https://images.pexels.com/photos/695644/pexels-photo-695644.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+ background-image: url("https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
  background-size: cover;
- background-position: left;
- background-repeat: no-repeat;
  align-items: center;
- padding: 5% 15% 35% 15%;
- border: 20px double white;
+ padding: 2% 15% 10% 15%;
+ background-repeat: no-repeat;
+ border: 20px double lightblue;
+ background-color: #FFDBB8;
+ background-blend-mode: screen;
  }
+
+ .item2 > h2, h4 {
+  color: #12266F!important;
+ }
+
 .item3 { grid-area: main; }
 .item4 { grid-area: right; }
 .item5 { grid-area: row; }
