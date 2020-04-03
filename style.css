@@ -100,9 +100,10 @@ a {
 */
 
 .banner {
-  background-size: contain;
+  background-size: cover;
   background-position: 20% 0;
   background-blend-mode: soft-light;
+  background-repeat: no-repeat;
   background-color: rgb(255, 219, 184, 0.65);
   opacity: 75%;
   padding: 1% 0;
