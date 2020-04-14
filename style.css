@@ -102,7 +102,7 @@ a {
 
 .banner {
   background-size: cover;
-  background-position: 20% 0;
+  background-position: 100% 0;
   background-blend-mode: soft-light;
   background-repeat: no-repeat;
   background-color: rgb(255, 219, 184, 0.65);
