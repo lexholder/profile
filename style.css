@@ -331,6 +331,7 @@ a {
   }
   .navbar {
     justify-content: center!important;
+    padding: 0;
   }
 }
 
