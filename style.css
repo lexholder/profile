@@ -119,10 +119,10 @@ a {
 }
 
 .banner h2 {
-  margin: 14% 22% 10%;
-  font-size: 3rem;
+  margin: 13% 26% 5%;
+  font-size: 7rem;
   color: rgb(18, 38, 110);
-  opacity: .8;
+  opacity: .6;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
@@ -196,7 +196,7 @@ a {
 }
 
 .page-divide {
-  background-image: url(https://images.pexels.com/photos/34592/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(images/books.jpg);
   background-size: cover;
   height: 145px;
   background-position: 0 27%;
@@ -322,6 +322,7 @@ a {
   .btn-blue {
     display: grid;
     text-align: center;
+    transition: 0.3s;
   }
   .description {
     margin: 4%!important;
@@ -360,7 +361,7 @@ a {
   margin: 2% 19%;
   border: 6px double lightblue;
   padding: 3%;
-  background-image: url("https://images.pexels.com/photos/269874/pexels-photo-269874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url(images/map.jpg);
   background-blend-mode: overlay;
   background-position-y: 12%;
   background-color: #FFDBB8;
