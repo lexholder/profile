@@ -200,8 +200,6 @@ a {
   background-size: cover;
   height: 145px;
   background-position: 0 27%;
-  background-color: #FFDBB8;
-  background-blend-mode: screen;
   border: 6px double lightblue;
   border-radius: 12px;
   margin: auto;
@@ -362,10 +360,10 @@ a {
   border: 6px double lightblue;
   padding: 3%;
   background-image: url(images/map.jpg);
-  background-blend-mode: overlay;
+  background-blend-mode: hard-light;
   background-position-y: 12%;
-  background-color: #FFDBB8;
-  color: rgb(18, 38, 112);
+  background-color: black;
+  color: lightyellow;
   opacity: .8;
   line-height: 130%;
   background-size: cover;
