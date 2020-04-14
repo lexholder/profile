@@ -310,6 +310,7 @@ a {
   }
   .banner h2 {
     margin: 6%;
+    font-size: 3rem;
   }
   .grid-container {
     display: none;
@@ -326,11 +327,15 @@ a {
     margin: 4%!important;
   }
   .banner {
-    background-position: 50%;
+    background-position: 84%;
   }
   .navbar {
     justify-content: center!important;
     padding: 0;
+  }
+
+  .description {
+    display: none;
   }
 }
 
